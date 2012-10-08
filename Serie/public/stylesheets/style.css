@@ -1,0 +1,12 @@
+body {
+    background: #0099FF;
+    background-position: center;
+
+}
+#Main{
+   margin-top: 10em;
+   margin-left: 15em;
+   width: 1024px;
+   height: 640px;
+
+}
