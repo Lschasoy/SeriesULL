@@ -4,9 +4,18 @@ body {
 
 }
 #Main{
-   margin-top: 10em;
-   margin-left: 15em;
    width: 1024px;
    height: 640px;
+
+}
+#Form{
+   margin-top: 1em;
+   margin-left: 20em;
+   
+}
+#Logo{
+
+   margin-top: 10em;
+   margin-left: 15em;
 
 }
