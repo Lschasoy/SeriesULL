@@ -6,7 +6,6 @@ body {
 #Main{
    width: 1024px;
    height: 640px;
-
 }
 #Form{
    margin-top: 1em;
@@ -15,7 +14,14 @@ body {
 }
 #Logo{
 
-   margin-top: 10em;
+   margin-top: 4em;
    margin-left: 15em;
-
 }
+
+h1 {
+   font-family: Georgia, "Times New Roman",  Sans-serif;
+   font-size: 35pt;
+   color: #0033FF;
+   text-align: center;
+}
+

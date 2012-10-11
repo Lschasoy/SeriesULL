@@ -7,8 +7,25 @@
   <%= csrf_meta_tag %>
 </head>
 <body>
+   <div id="Main">
+   	<div id="head">
+          <div id="logoWeb">
+              <img src="/images/logo.gif">
+          </div>             
+       </div>
+   
+       <div id="left">
+         <h3> MENUS </h3> 
+       </div>
 
-<%= yield %>
+      <div id="right">
+         <%= yield %>
 
+      </div>       
+      <div id="footer">
+          <p> Contactos | Politicas | Servicios </p>    
+
+      </div> 
+   </div>
 </body>
 </html>

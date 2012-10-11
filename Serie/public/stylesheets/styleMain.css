@@ -1,0 +1,51 @@
+html{
+    background: #F0F0F0;
+
+}
+body {
+    background: #0099FF;
+    background-position: top center;
+
+}
+#Main{
+    width: 1024px;
+    margin: 0 auto;
+    padding: 0;
+
+}
+#head{
+   height: 150px;
+   background: #FDFDFF;
+   margin-bottom: 1em;  
+  
+}
+#left{
+    background: #66CCFF;
+    width: 28%;
+    float: left;
+} 
+
+#right{
+  
+   background: #33CCFF;
+   width: 70%;
+   margin-left: 29%;
+   float: center;
+   height: 60%;
+}
+
+#footer{
+    margin-top: 2em;  
+    background: #F6F6FF;
+    height: 30px;
+    float: center;  
+    text-align: center;
+
+}
+h1 {
+   font-family: Georgia, "Times New Roman",  Sans-serif;
+   font-size: 35pt;
+   color: #0033FF;
+   text-align: center;
+}
+
