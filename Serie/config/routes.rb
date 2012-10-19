@@ -1,15 +1,15 @@
 Serie::Application.routes.draw do
-  get "static_pages/Privacy"
+ 
+  root to: 'static_pages#home'
 
-  get "static_pages/Help"
-
-  get "static_pages/Terms"
-
-  get "static_pages/About"
-
-  get "static_pages/home"
-
-  # The priority is based upon order of creation:
+   
+  match '/help',    to: 'static_pages#help'
+  match '/about',   to: 'static_pages#about'
+  match '/contact', to: 'static_pages#contact'
+  match '/privacy', to: 'static_pages#privacy'
+  match '/terms', to: 'static_pages#terms'
+  
+   # The priority is based upon order of creation:
   # first created -> highest priority.
 
   # Sample of regular route:

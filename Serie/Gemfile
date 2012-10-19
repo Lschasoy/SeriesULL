@@ -1,10 +1,12 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.0'
+  gem 'rails', '3.2.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mongo_mapper'
-gem 'bson_ext'
-gem 'prototype-rails'
+  gem 'mongo_mapper'
+  gem 'bson_ext'
+  gem 'prototype-rails'
+  
+  
